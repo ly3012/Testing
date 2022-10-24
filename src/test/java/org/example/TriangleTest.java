@@ -1,9 +1,5 @@
 package org.example;
-
-//import org.junit.Test;
-
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
  class TriangleTest {
     Triangle triangle = new Triangle();
@@ -22,7 +18,6 @@ import static org.junit.jupiter.api.Assertions.*;
     @Test
     void test3(){
         assertEquals(triangle.Check(8,4,2),NotTriangle);
-
     }
     @Test
     void test4(){

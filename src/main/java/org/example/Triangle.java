@@ -1,7 +1,5 @@
 package org.example;
-
 public class Triangle {
-
     public String Check(int a, int b, int c){
         String Triangle = "La tam giac";
         String NotTriangle = "Khong la tam giac";
